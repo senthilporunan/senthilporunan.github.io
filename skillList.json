@@ -1,0 +1,23 @@
+
+{
+	"HTML5": 4,
+	"CSS3": 3,
+	"JavaScript": 3.5,
+	"nodeJS": 3.5,
+	"Java": 3.5,
+	"maven": 3,
+	"C-plus-plus": 3,
+	"dustJS": 4,
+	"grunt": 3.5,
+	"gulp": 3,
+	"bower": 3.5,
+	"Haskell": 3,
+	"Bootstrap": 4,
+	"AngularJS": 3.5,
+	"jQuery": 4,
+	"ReactJS": 3.5,
+	"ECMA-6": 4,
+	"Unix": 4,
+	"Oracle": 3.5,
+	"DSA": 3.5
+}

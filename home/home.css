@@ -1,0 +1,43 @@
+
+.home-container {
+	background: no-repeat center right fixed  url("../assets/img/background.jpg");
+	background-size: cover;	
+	height: 900px;
+}
+.personal-home, .profile-container, .contact-container {
+  transform: translate(-50%,-50%);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+
+.personal-home > p {
+	text-align: center;
+	border-bottom: 1px solid black;
+	font-family: monospace !important;
+	text-transform: none;
+	font-size: 70px;
+	color: deeppink;
+}
+
+#home-resume-btn {
+	height: 40%;
+  width: 40%;
+  border-radius: 20px;
+	text-transform: capitalize;
+}
+.navbar-default {
+	margin-bottom: 0px !important;
+	background-color: transparent;
+}
+
+.navbar-default .navbar-nav > li > a:hover{
+	background-color: #ddd !important;
+}
+.navbar-header {
+	-webkit-transition: transform 10s linear;
+	transition: transform 10s linear;
+}
+body {
+	
+}

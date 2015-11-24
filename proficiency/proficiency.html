@@ -1,0 +1,17 @@
+<div class="col-md-12 proficiency-container" ng-controller="proficiencyCtrl"> 
+	<div class="personal-proficiency">
+		<p><strong>Proficiency</strong></p>
+		<p class="col-md-10 col-md-push-2">Skills</p>
+		<div class="col-md-12 personal-proficiency-skills" ng-repeat="skill in skillLists">
+			<p class="col-md-1 col-sm-3">{{skill}}</p>
+			<div class="col-md-1 col-sm-3" id="jrate-{{skill}}" data-jrate={{skill}}></div>
+		</div>
+		<p class="col-md-10 col-md-push-2">Tools</p>
+		<div class="col-md-12 personal-proficiency-skills" ng-repeat="tool in toolLists" >
+			<p class="col-md-1 col-sm-3">{{tool}}</p>
+			<div class="col-md-1 col-sm-3" id="jrate-{{tool}}" data-jrate={{tool}}></div>
+		</div>
+	</div>
+	
+</div>
+	
