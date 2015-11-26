@@ -1,6 +1,6 @@
 
 .home-container {
-	background: no-repeat center right fixed  url("../assets/img/background.jpg");
+	background: no-repeat center right fixed  url("/assets/img/background.jpg");
 	background-size: cover;	
 	height: 900px;
 }
